@@ -167,7 +167,7 @@ const swiperSettings = {
 };
 function BrandLogo() {
 	return (
-		<div className="aximo-brandlogo-section3 ">
+		<div className="aximo-brandlogo-section3 " style={{backgroundColor:"black"}}>
 			<div className="container">
 				<div className="aximo-brandlogo-title3">
 					<p>We are happy to work and share creative vision with international partners such as:</p>

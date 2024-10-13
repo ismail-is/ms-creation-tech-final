@@ -25,8 +25,8 @@ function ContactInfo() {
 								</div>
 								<div className="aximo-contact-info-data">
 									<span>Call us</span>
-									<p>+088-234-6532-789</p>
-									<p>+088-456-3217-005</p>
+									<p>+91 94808 89252									</p>
+									<p>+91 90086 54889									</p>
 								</div>
 							</div>
 						</a>

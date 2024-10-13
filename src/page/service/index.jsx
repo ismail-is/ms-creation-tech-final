@@ -7,58 +7,74 @@ import WhyChooseUs from "../../components/home-one/why-choose-us";
 const services = [
 	{
 		id: crypto.randomUUID(),
-		title: "UI/UX Design",
+		title: "Logo and Branding",
 		description:
-			"Focusing on user interface (UI) and user experience (UX) design enhance the usability and accessibility of digital products & app.",
+			"FWe create distinctive logos and cohesive branding strategies that resonate with your target audience, establishing a powerful and recognizable brand identity.",
 		icon: "icon-design-tools",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Graphic Design",
+		title: "Social Media Poster Design",
 		description:
-			"Creating visual elements such as logos, branding materials, page layout techniques, brochures, & other marketing collateral.",
+			" Engaging and visually appealing social media posters tailored to promote your brand, increase interaction, and drive traffic across your social platforms.",
 		icon: "icon-branding",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Web Design",
+		title: "Product Package Design",
 		description:
-			"Designing and developing websites to ensure they are visually look and appealing, user-friendly, and functional your website.",
+			"From concept to creation, our product packaging designs not only protect but also captivate, ensuring your products stand out on the shelves and reflect your brand's quality.",
 		icon: "icon-web",
 	},
+	
 	{
 		id: crypto.randomUUID(),
-		title: "Motion Graphics",
+		title: "Flyer Design",
 		description:
-			"Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.",
-		icon: "icon-design-thinking",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Packaging Design",
-		description:
-			"Creating packaging solutions for products that not only protect them but also attract customers on store shelves.",
+			"Creative and impactful flyer designs to promote events, products, or services. Our designs are crafted to capture attention and convey your message effectively.",
 		icon: "icon-layers",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Logo and Branding",
+		title: "Business Card & Letterhead Design",
 		description:
-			"Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.",
+			"Elegant and professional designs that reinforce your brand identity, leaving a lasting impression through every business interaction.",
 		icon: "icon-rating-stars-1",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Illustration",
+		title: "Web Development",
 		description:
-			"Producing custom illustrations for editorial content, books, websites, marketing materials, magazines and more.",
+			" Customized, responsive websites that not only look great but also provide a seamless user experience, helping you establish a strong online presence and achieve your business goals..",
 		icon: "icon-chef",
+	},
+	
+	{
+		id: crypto.randomUUID(),
+		title: "Motion Graphics",
+		description:
+			" Dynamic and engaging motion graphics to animate your ideas, perfect for advertisements, explainer videos, and enhancing your digital presence.",
+		icon: "icon-target-1",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Product Design",
+		title: "Social Media Management",
 		description:
-			"Developing the look and feel of physical products, considering ergonomics, aesthetics, and functionality.",
+			"  Comprehensive social media management services to grow your online community, enhance brand visibility, and engage your audience with consistent and strategic content.",
+		icon: "icon-target-1",
+	},
+	{
+		id: crypto.randomUUID(),
+		title: "Company Profile / Brochure Design",
+		description:
+			" Professionally designed company profiles and brochures that effectively narrate your business story, showcase your services, and highlight your achievements in a compelling format.",
+		icon: "icon-design-thinking",
+	},
+	{
+		id: crypto.randomUUID(),
+		title: "Videography",
+		description:
+			" High-quality videography services that capture the essence of your brand, creating visually compelling content for marketing campaigns, product showcases, and corporate storytelling.",
 		icon: "icon-target-1",
 	},
 ];

@@ -20,7 +20,7 @@ function HeroContent() {
 								today's fast-paced.`}
 			</p>
 			<div className="aximo-hero-user-wrap">
-				<div className="aximo-hero-user-thumb">
+				{/* <div className="aximo-hero-user-thumb">
 					<div className="aximo-hero-user-thumb-item">
 						<img src={User1Img} alt="User1Img" />
 					</div>
@@ -30,13 +30,13 @@ function HeroContent() {
 					<div className="aximo-hero-user-thumb-item">
 						<img src={User2Img} alt="User2Img" />
 					</div>
-				</div>
-				<div className="aximo-hero-user-data">
+				</div> */}
+				{/* <div className="aximo-hero-user-data">
 					<p>Believed by more than a thousand people</p>
-				</div>
+				</div> */}
 			</div>
 			<Link className="aximo-call-btn" to="/contact-us">
-				Book a free consultation <i className="icon-call"></i>
+			Contact Us <i className="icon-call"></i>
 			</Link>
 			<div className="aximo-hero-shape">
 				<img src={ShapeImg} alt="ShapeImg" />

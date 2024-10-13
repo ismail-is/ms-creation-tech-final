@@ -37,6 +37,7 @@
 	.site-navbar .menu-block-wrapper {
 		display: flex !important;
 		flex-basis: auto;
+		justify-content: center;
 	}
 }
 

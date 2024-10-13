@@ -12,35 +12,38 @@ import Team1Img from "../../assets/images/team/team1.png";
 import Team2Img from "../../assets/images/team/team2.png";
 import Team3Img from "../../assets/images/team/team3.png";
 import Team4Img from "../../assets/images/team/team4.png";
+import BrandLogo from "../../components/home-seven/brand-logo";
 
 const servicesData = [
-	{
-		id: crypto.randomUUID(),
-		title: "UI/UX Design",
-		description:
-			"Focusing on user interface (UI) and user experience (UX) design enhance the usability and accessibility of digital products & app.",
-		icon: "icon-design-tools",
-	},
+	
 	{
 		id: crypto.randomUUID(),
 		title: "Graphic Design",
 		description:
-			"Creating visual elements such as logos, branding materials, page layout techniques, brochures, & other marketing collateral.",
+			" From logos to marketing materials, our graphic design services cover everything needed to visually communicate your brand’s message. We specialize in creating eye-catching designs for logos, social media, packaging, brochures, flyers, business cards, and more.",
 		icon: "icon-branding",
 	},
+
 	{
 		id: crypto.randomUUID(),
-		title: "Web Design",
+		title: "Web Development",
 		description:
-			"Designing and developing websites to ensure they are visually look and appealing, user-friendly, and functional your website.",
-		icon: "icon-web",
+			"We develop custom, responsive websites that provide an optimal user experience across all devices. Our web development services include everything from design to deployment, ensuring your site is both functional and visually appealing.",
+		icon: "icon-design-thinking",
 	},
 	{
 		id: crypto.randomUUID(),
 		title: "Motion Graphics",
 		description:
-			"Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.",
-		icon: "icon-design-thinking",
+			"High-quality videography services to capture and convey your brand’s story through compelling visuals. Whether it’s promotional videos, corporate events, or product showcases, we create impactful videos that resonate with your audience.",
+		icon: "icon-web",
+	},
+	{
+		id: crypto.randomUUID(),
+		title: "Motion Graphic",
+		description:
+			"Dynamic motion graphics to bring your ideas to life. Ideal for explainer videos, advertisements, and enhancing digital content, our motion graphics make your message more engaging and memorable.",
+		icon: "icon-design-tools",
 	},
 ];
 
@@ -78,10 +81,11 @@ function HomeOne() {
 			<Services services={servicesData} />
 			<About />
 			<Projects />
-			<WhyChooseUs />
+			<BrandLogo />
+			{/* <WhyChooseUs /> */}
 			{/* <Testimonial /> */}
 			<AutoSlider />
-			<Teams teams={teamsData} />
+			{/* <Teams teams={teamsData} /> */}
 		</>
 	);
 }
